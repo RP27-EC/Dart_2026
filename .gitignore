@@ -1,47 +1,10 @@
-# 编译器生成的中间文件
-*.o
-*.d
-*.crf
-*.tra
-*.axf
-*.hex
-*.bin
-*.map
-*.lst
-*.lnp
-*.__i
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
 
-# Keil 编译的临时文件
-*.uvgui.*
-*.uvopt
-*.uvproj.bak
-*.dep
-*.plg
-*.log
-*.bak
-*.htm
-*.iex
-
-# 调试配置文件
-JLinkLog.txt
-JLinkSettings.ini
-*.ini
-*.cdb
-
-# 目录忽略（编译器生成的中间文件夹）
-Objects/
-Listings/
-RTE/
-_build/
-Debug/
-Release/
-
-# 编辑器/IDE 临时文件
-*.swp
-*~
-.vscode/
-.idea/
-*.uvguix.*
-
-# Claude Code
-CLAUDE.md
+# Virtual environments
+.venv
